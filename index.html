@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>WEBSITE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=10">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <!---FONT-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <div class="nav-link">
+                    <a data-scroll href="#home">HOME</a>
+                    <a data-scroll href="#aboutUs">ABOUT US</a>
+                    <a data-scroll href="#service">SERVICE</a>
+                    <a href="#contactUs">CONTACT US</a>
+                </div>
+            </nav>
+            <section id="home"  class="nav-img">
+                <article class="img-information">
+                    <h1>BEST CHOICE FOR BUSINESS</h1>
+                    <p>Buil corporate website of any size</p>
+                    <button>
+                        LEARN MORE
+                    </button>
+                </article>
+            </section>
+        </header>
+        <section id="aboutUs" class="aboutUs">
+            <article class="aboutUs__info">
+                <div class="aboutUs__info-section1">
+                    <h2>WHY CHOOSING US</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore animi architecto expedita vitae libero, eaque nihil ex dolores harum. Vitae nobis, blanditiis vero distinctio odio maiores explicabo harum officiis.</p>
+                </div>
+                <div class="aboutUs__info-section2">
+                    <div class="aboutUs__info-section2-1">
+                        <h3>DIGITAL</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="aboutUs__info-section2-1">
+                        <h3>DIGITAL</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="aboutUs__info-section2-1">
+                        <h3>DIGITAL</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="aboutUs__info-section2-1">
+                        <h3>DIGITAL</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="about__img">
+                <img src="img/woman-edit.png" alt="">
+            </article>
+        </section>
+        <section class="service" id="service">
+           <h2>SERVICE</h2>
+            <div class="service__content">
+                <div class="service__content-1">
+                    <div class="service__content-1-info">
+                        <h3>MEDIA</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eius sapiente mollitia adipisci rerum eligendi.</p>
+                    </div>
+                    <div class="service__content-1-logo">
+                        <i class='bx bxs-camera-movie bx-md'></i>
+                    </div>
+                </div>
+                <div class="service__content-1">
+                    <div class="service__content-1-info">
+                        <h3>MEDIA</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eius sapiente mollitia adipisci rerum eligendi.</p>
+                    </div>
+                    <div class="service__content-1-logo">
+                        <i class='bx bxs-camera-movie bx-md'></i>
+                    </div>
+                </div>
+                <div class="service__content-1">
+                    <div class="service__content-1-info">
+                        <h3>MEDIA</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eius sapiente mollitia adipisci rerum eligendi.</p>
+                    </div>
+                    <div class="service__content-1-logo">
+                        <i class='bx bxs-camera-movie bx-md'></i>
+                    </div>
+                </div>
+                <div class="service__content-1">
+                    <div class="service__content-1-info">
+                        <h3>MEDIA</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eius sapiente mollitia adipisci rerum eligendi.</p>
+                    </div>
+                    <div class="service__content-1-logo">
+                        <i class='bx bxs-camera-movie bx-md'></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="contactUs" id="contactUs">
+            <div class="contactUs__section1">
+                <h2>CONTACT US</h2>
+                <div class="contactUs__content1-contact">
+                    <div class="contactUs__content1-contact-direction">
+                        <p>Address: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="contactUs__content1-contact-direction">
+                        <p><i class='bx bx-headphone bx-md'></i> Phone: +503 7777777</p>
+                        <p><i class='bx bx-copy-alt bx-md'></i> Fax: +503 7777777</p>
+                        <p><i class='bx bxs-message-alt-detail bx-md'></i> Email: info@service.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactUs__section1">
+                <h2>FOLLOW US</h2>
+                <div class="contactUs__section2-redes">
+                    <i class='bx bxl-facebook bx-md' ></i>
+                    <i class='bx bxl-twitter bx-md' ></i>
+                    <i class='bx bxl-instagram bx-md' ></i>
+                    <i class='bx bxl-youtube bx-md' ></i>
+                    <i class='bx bxl-vimeo bx-md' ></i>
+                    <i class='bx bxl-telegram bx-md' ></i>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]', {
+                speed: 1000,
+                speedAsDuration: true
+            });
+
+        </script>
+
+    </body>
+</html>

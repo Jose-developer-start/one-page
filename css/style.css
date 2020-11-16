@@ -1,0 +1,198 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: #292933;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-link{
+    display: flex;
+    width: 35%;
+    margin-right: 50px;
+}
+.nav-img{
+    padding-top: 50px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/woman1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.img-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: currentColor;
+    font-size: 35px;
+    
+    padding: 15px 50px 250px;
+}
+.img-information h1{
+    color: rgb(70, 72, 92);
+}
+button{
+    margin-top: 20px;
+   width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 4px solid #6f98b7;
+}
+button:hover{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: auto;
+}
+/*SECTION PAGE*/
+.aboutUs{
+    display: flex;
+    padding: 50px;
+    background-color: rgb(236, 242, 245);
+}
+.aboutUs__info-section1{
+    margin: 55px 0 55px 0;
+}
+.aboutUs__info-section1 h2{
+   font-size: 45px;
+    text-align: center;
+}
+.aboutUs__info-section1 p{
+    margin-top: 10px;
+   font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+}
+.aboutUs__info-section2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutUs__info-section2-1{
+    width: 50%;
+    margin: 10px 0 50px 0;
+    padding-right: 30px
+    
+}
+.aboutUs__info-section2-1 h3{
+    margin: 10px 0 10px 0;
+    font-size: 22px;
+    color: #00bcd4;
+    
+}
+.aboutUs__info-section2-1 p{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    
+}
+.about__img{
+    margin: 55px 0 55px 0;
+}
+/*SECTION SERVICE*/
+.service{
+    height: 50vh;
+    padding: 50px;
+    background-color: #d5ebe4;
+}
+.service h2{
+    text-align: center;
+    font-size: 35px;
+}
+.service__content{
+    display: flex;
+    padding: 50px;
+}
+.service__content-1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.service__content-1:hover{
+    background-color: rgb(75, 77, 96);
+    color: #fff;
+}
+.service__content-1-info h3{
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #00bcd4;
+}
+.service__content-1-info p{
+     font-size: 18px;
+    line-height: 25px;
+}
+/*CONTENT contactUs*/
+.contactUs{
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(87, 255, 197, 0.86)
+}
+.contactUs__section1 h2{
+    font-size: 45px;
+    margin-bottom: 50px
+}
+.contactUs__content1-contact{
+    display: flex;
+}
+.contactUs__content1-contact-direction{
+    width: 50%;
+    font-size: 18px;
+    line-height: 25px;
+}
+.contactUs__section2-redes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactUs__section2-redes i{
+    margin: 18px;
+    cursor: pointer;
+}
+i:hover{
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.one-page{
+    top: 45px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(228, 229, 240, 0.49);
+    padding: 50px;
+}
